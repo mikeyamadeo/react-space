@@ -1,0 +1,63 @@
+{
+  "name": "react-space",
+  "version": "1.0.0",
+  "description": "React utility component for applying spacing (margin/padding) to layouts via jsx",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel --copy-files --out-dir dist src",
+    "prebuild": "rimraf dist",
+    "test": "ava -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeyamadeo/react-space.git"
+  },
+  "keywords": [
+    "react",
+    "jsx",
+    "inline-styles"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "Mikey Murphy <mikeyamadeo@gmail.com> (https://twitter.com/TranscendMikey)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikeyamadeo/react-space/issues"
+  },
+  "homepage": "https://github.com/mikeyamadeo/react-space#readme",
+  "devDependencies": {
+    "ava": "0.15.2",
+    "babel-cli": "6.10.1",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-react": "6.5.0",
+    "babel-preset-stage-2": "6.5.0",
+    "rimraf": "2.5.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-2",
+      "react"
+    ]
+  },
+  "ava": {
+    "files": [
+      "**/spec.js",
+      "**/*.spec.js"
+    ],
+    "require": ["babel-register"],
+    "babel": "inherit"
+  },
+  "standard": {
+    "showEslintRules": true,
+    "parser": "babel-eslint",
+    "rules": {
+      "strict": 0
+    }
+  },
+  "dependencies": {
+    "react": "15.1.0"
+  }
+}
