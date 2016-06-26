@@ -1,6 +1,6 @@
 {
   "name": "react-space",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React utility component for applying spacing (margin/padding) to layouts via jsx",
   "main": "dist/index.js",
   "scripts": {
