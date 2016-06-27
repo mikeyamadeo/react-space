@@ -1,4 +1,4 @@
-![react spaceman](https://raw.githubusercontent.com/mikeyamadeo/react-space/master/assets/react-spaceman.jpg)
+![react spaceman](https://raw.githubusercontent.com/mikeyamadeo/react-space/master/assets/react-space.jpg)
 ### why
 * bc I find myself doing quick and dirty layout inlining
 * consistent spacing is important
